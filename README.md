@@ -29,7 +29,7 @@ El análisis se estructuró en las siguientes etapas:
 Este notebook fue desarrollado en Google Colab, lo que facilita su ejecución y reproducción.
 
 1.  **Abrir en Google Colab**: Haz clic en el siguiente badge para abrir el notebook directamente en Google Colab:
-    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TU_REPO_DE_GITHUB/ConnectaTel_Analysis/blob/main/ConnectaTel_Analysis.ipynb) <!-- Reemplaza TU_REPO_DE_GITHUB/ConnectaTel_Analysis/blob/main/ConnectaTel_Analysis.ipynb con la ruta real a tu notebook en GitHub -->
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/https://colab.research.google.com/drive/1GASCDsVCci9Bnl5W7sHy4UwpPuVeMun4?usp=drive_link) <!-- Reemplaza TU_REPO_DE_GITHUB/ConnectaTel_Analysis/blob/main/ConnectaTel_Analysis.ipynb con la ruta real a tu notebook en GitHub -->
 2.  **Montar Google Drive**: Al inicio del notebook, se te pedirá montar tu Google Drive. Esto es necesario para acceder a los archivos CSV que se asumen estar en la ruta `/content/drive/MyDrive/Colab Notebooks/Proyecto S7/`.
 3.  **Ejecutar Celdas**: Simplemente puedes ejecutar todas las celdas en orden (`Runtime > Run all`) o ir ejecutándolas una por una para seguir el flujo del análisis.
 
@@ -39,9 +39,8 @@ Para reproducir este análisis, sigue estos pasos:
 
 1.  **Clonar el Repositorio**:
     ```bash
-    git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-    cd TU_REPOSITORIO
+    git clone https://github.com/villabon89-commits/Proyectos.git
+    cd Proyectos
     ```
-    (Asegúrate de reemplazar `TU_USUARIO` y `TU_REPOSITORIO` con tu información de GitHub).
 2.  **Preparar los Datos**: Asegúrate de que los archivos `plans.csv`, `users_latam.csv` y `usage.csv` estén ubicados en la ruta esperada dentro de tu Google Drive, específicamente en `MyDrive/Colab Notebooks/Proyecto S7/`. Si los archivos están en una ubicación diferente, deberás actualizar las rutas en las celdas de carga de datos.
 3.  **Abrir en Colab y Ejecutar**: Sigue las instrucciones de "Cómo Ejecutar el Notebook" para abrir y ejecutar el análisis en Google Colab.
